@@ -101,8 +101,7 @@ const movieTemplate = movieDetail => {
         } else {
             return prev + value;
         }
-    }, 0);  
-    console.log(count);
+    }, 0); 
 
     return `
     <article class="media">
