@@ -6,7 +6,7 @@ const debounce = (func, delay ) => {
      }
      timeoutId = setTimeout (() => {
         func.apply(null, args);
-     }, 1010); 
+     }, 1011); 
     };
 };
 
